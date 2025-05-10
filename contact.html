@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us | GenZInnovative</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: url('genz_bg.png') center/cover no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #34495e;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+    button {
+      background: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+    .contact-info, .social {
+      margin-top: 40px;
+    }
+    .contact-info p, .social p {
+      font-size: 1.1em;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+    }
+    .social img, .contact-info img {
+      height: 24px;
+      width: 24px;
+      margin-right: 10px;
+    }
+    .social a {
+      text-decoration: none;
+      color: #3498db;
+      display: flex;
+      align-items: center;
+    }
+    .social a:hover {
+      color: #2c3e50;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Contact Us</h1>
+  <p>We’d love to hear from you. Reach out with any questions or project inquiries.</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="careers.html">Careers</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="section">
+  <form action="https://formspree.io/f/xjkwoedz" method="POST">
+    <h2>Contact Form</h2>
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="text" name="subject" placeholder="Subject" />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <h2>Contact Information</h2>
+    <p><img src="email.png" alt="Email Icon" /> <a href="mailto:GenZInnovative@outlook.com">GenZInnovative@outlook.com</a></p>
+    <p><img src="phone.png" alt="Phone Icon" /> +49 123 456 7890</p>
+    <p><img src="location.png" alt="Location Icon" /> --</p>
+  </div>
+
+  <div class="social">
+    <h2>Follow Us</h2>
+    <p><a href="https://instagram.com" target="_blank"><img src="instagram.jpg" alt="Instagram Logo" /> Instagram</a></p>
+    <p><a href="https://facebook.com" target="_blank"><img src="facebook.png" alt="Facebook Logo" /> Facebook</a></p>
+    <p><a href="https://linkedin.com" target="_blank"><img src="linkedin.png" alt="LinkedIn Logo" /> LinkedIn</a></p>
+    <p><a href="https://wa.me/491234567890" target="_blank"><img src="whatsapp.jpg" alt="WhatsApp Logo" /> WhatsApp</a></p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 GenZInnovative. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
